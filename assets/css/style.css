@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background: linear-gradient(to right, #000000, #434343);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+#logo-sierras-mates {
+    height: 60px;
+    border-radius: 5px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 250px;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.navbar-list li {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.navbar-list li:first-child {
+    color: white;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+.navbar-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.icono-carrito {
+    color: white;
+    height: 20px;
+    cursor: pointer;
+}
+
+.hero-containter {
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero {
+    margin-top: 65px;
+    padding: 70px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.hero-info h1 {
+    font-size: 35px;
+    font-weight: 900;
+    width: 80%;
+}
+
+.hero-info p {
+    width: 70%;
+    font-size: 14px;
+}
+
+.hero-info span {
+    font-weight: 750;
+}
+
+.hero-a a {
+    background-color: #3498db;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    width: 100px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.hero-info a:first-child {
+    margin-right: 10px;
+}
+
+.hero-photo {
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto-mates {
+    border-radius: 10px;
+    width: 250px;
+    height: 280px;
+}
+
+.hr-white {
+    color: white;
+    width: 70%;
+}
+
+.description-containter {
+    margin: 20px 0;
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+
+.description-containter span {
+    font-size: 16px;
+}
