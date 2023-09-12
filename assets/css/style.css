@@ -8,7 +8,7 @@
 header {
     height: 65px;
     width: 100%;
-    background: linear-gradient(to right, #000000, #434343);
+    background-color: white;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
@@ -43,19 +43,19 @@ header {
 }
 
 .navbar-list li:first-child {
-    color: white;
+    color: black;
     font-weight: 600;
     list-style-type: none;
 }
 
 .navbar-list a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 .icono-carrito {
-    color: white;
-    height: 20px;
+    color: black;
+    height: 25px;
     cursor: pointer;
 }
 
@@ -70,7 +70,7 @@ header {
 }
 
 #hero {
-    margin-top: 65px;
+    margin-top: 45px;
     padding: 70px 0px;
     max-width: 1200px;
     display: flex;
