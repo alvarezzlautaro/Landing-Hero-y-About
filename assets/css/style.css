@@ -119,13 +119,13 @@ header {
 .hero-photo {
     background: linear-gradient(to right, #8e9eab, #eef2f3);
 
-    width: 300px;
     padding: 20px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .foto-mates {
     border-radius: 10px;
     width: 250px;
@@ -138,7 +138,7 @@ header {
 }
 
 .description-containter {
-    margin: 20px 0;
+    margin: 40px 0;
     width: 50%;
     height: auto;
     text-align: center;
@@ -147,3 +147,267 @@ header {
 .description-containter span {
     font-size: 16px;
 }
+
+.card-container {
+    margin-top: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-container h2 {
+    color: transparent;
+    background: linear-gradient(to bottom, rgb(173, 178, 255) ,rgb(0, 174, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+.card-container span {
+    width: 60%;
+
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.card-items {
+    width: 80%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-item {
+    width: 30%;
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-item h2{
+    color: white;
+
+    text-align: center;
+    width: 80%;
+    font-size: 18px;
+}
+
+.card-item img{
+    width: 35%;
+}
+
+.card-item span{
+    width: 100%;
+    font-size: 16px;
+}
+
+.contact-container {
+    margin-top: 50px;
+
+    width: 60%;
+}
+
+.contact {
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.contact-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contact-img {
+    width: 330px;
+    height: 350px;
+}
+
+.contact-img img {
+    width: 330px;
+    height: 350px;
+}
+
+.contact-item {
+    padding: 25px;  
+    max-height: 300px;  
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    gap: 25px;
+}
+
+.lista-contacto {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.contact-item h2 {
+    font-size: 16px;
+}
+
+.contact-mail {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+    gap: 15px ;
+}
+
+.contact-mail span {
+    font-size: 14px;
+    color: #bac6d3;
+}
+
+.contact-mail img {
+    background-color: grey;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+.contact-phone {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+    gap: 15px ;
+}
+
+.contact-phone span {
+    font-size: 14px;
+    color: #bac6d3;
+}
+
+.contact-phone img {
+    background-color: grey;
+    border-radius: 30px;
+    padding: 2px;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 10px;
+}
+
+.redes-sociales a {
+    color: black;
+}
+
+.redes-sociales a img {
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    padding: 15px;
+    height: 150px;
+
+    background-color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.logo-sierras-footer {
+    width: 15%;
+}
+
+.span-footer {
+    color: black;
+    font-size: 14px;
+}
+
+.sierras-footer {
+    width: 40px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.links h2 {
+    font-size: 16px;
+    color: black;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    list-style-type: none;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.redes-links {
+
+    height: 40px;
+    padding: 10px;
+
+}
+
+.redes-links h2 {
+    color: black;
+}
+
+.redes-links a {
+    margin-right: 20px;
+}
+
+.redes-links a img {
+    height: 30px;
+
+    background-color: transparent;
+    border: solid 2px grey;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.redes-container {
+    height: 100px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.redes-container h2 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+
