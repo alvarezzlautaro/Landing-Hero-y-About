@@ -1,4 +1,12 @@
 @media (max-width: 920px){
+    #logo-sierras-mates {
+        height: 40px;
+    }
+
+    .navbar i {
+        font-size: 30px;
+    }
+
     .navbar {
         gap: 50px;
     }
@@ -79,6 +87,15 @@
 }
 
 @media (max-width: 720px) {
+    #logo-sierras-mates {
+        height: 40px;
+    }
+
+    .navbar i {
+        font-size: 25px;
+    }
+
+
     .hero-info {
     width: 75%;
     height: 350px;
@@ -107,15 +124,106 @@
         font-size: 16px;
     }
 
+    .contact-item {
+        width: 100%;
+    }
+
+    .contact-item h2 {
+        font-size: 20px;
+    }
+
+    .contact-item span {
+        font-size: 20px ;
+    }
+
+    .contact-item img {
+        height: 25px;
+    }
+
+    .redes-sociales a{
+        height: 25px;
+    }
+
     .contact-img {
-        height: 320px;
-        width: 170px;
+    display: none;
     }
 
-    .contact-img img {
-    height: 320px;
-    width: 170px;
+}
+
+@media (max-width: 425px){
+    .hero-info h1 {
+        font-size: 25px;
     }
 
+    .hero-info p {
+        font-size: 13px;
+    }
+
+    .description-container span {
+        font-size: 15px;
+    }
+
+    .card-item {
+        width: 90%;
+        height: 500px;
+    }
+
+    .contact {
+        width: 250px;
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    .contact-item {
+        padding: 0;
+    }
+
+    .contact-item span {
+        font-size: 16px;
+    }
+
+    .contact-item img {
+        height: 20px;
+    }
+
+    .contact-item a {
+        height: 20px;
+    }
+
+    .contact-footer {
+        width: 50%;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .redes-container {
+        width: 50%;
+    }
+
+    .redes-links {
+        padding: 0;
+        height: 36px;
+    }
+    
+    .redes-links a img {
+        height: 36px;
+    }
+}
+
+@media (max-width: 375px){
+
+    .description-container span {
+        font-size: 14px;
+    }
+
+    .redes-container h2 {
+        font-size: 20px;
+    }
+
+    .redes-links a img {
+        height: 34px;
+    }
 
 }
