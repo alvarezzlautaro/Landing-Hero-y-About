@@ -30,6 +30,15 @@ header {
     gap: 250px;
 }
 
+.navbar i {
+    font-size: 36px;
+    display: none;
+}
+
+#toggle-menu {
+    display: none;
+}
+
 .navbar-list {
     display: flex;
     justify-content: center;
@@ -137,7 +146,7 @@ header {
     width: 70%;
 }
 
-.description-containter {
+.description-container {
     margin: 40px 0;
     width: 50%;
     height: auto;
@@ -246,12 +255,10 @@ header {
 
 .contact-item {
     padding: 25px;  
-    max-height: 300px;  
-
     display: flex;
     flex-direction: column;
-    justify-content: space-between ;
-    gap: 25px;
+    justify-content: space-around ;
+    gap: 10px;
 }
 
 .lista-contacto {
@@ -259,7 +266,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 10px;
 }
 
 .contact-item h2 {
